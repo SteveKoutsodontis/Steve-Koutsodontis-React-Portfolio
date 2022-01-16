@@ -1,3 +1,18 @@
+* {
+    background-color: #a1a1a1;
+    font-style:oblique
+}
+
+
+
 h1 {
-    color: green;
+padding: 4%;}
+
+.contact {
+    text-align: center;
+}
+
+img {
+    border-radius: 30%;
+    padding: 5%;
 }
