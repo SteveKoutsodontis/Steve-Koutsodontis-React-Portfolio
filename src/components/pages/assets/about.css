@@ -1,12 +1,18 @@
 * {
-    background-color: #a1a1a1;
-    font-style:oblique
+    background-color: #111;
+    font-style:oblique;
+    color: #a1a1a1;
+    /* box-sizing: border-box; */
 }
 
-
+.nav-item {
+    text-align: center;
+}
 
 h1 {
-padding: 4%;}
+padding: 4%;
+text-align: center;
+}
 
 .contact {
     text-align: center;
@@ -15,4 +21,32 @@ padding: 4%;}
 img {
     border-radius: 30%;
     padding: 5%;
+}
+
+.myPicture {
+    /* position: absolute; */
+    /* float: right;
+    width: 15%;
+    height: 15%; */
+}
+
+div {
+    flex: auto;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.aboutMe {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.contact {
+    /* display: flex; */
 }
