@@ -2,7 +2,6 @@
     background-color: #111;
     font-style:oblique;
     color: #a1a1a1;
-    /* box-sizing: border-box; */
 }
 
 .nav-item {
@@ -23,12 +22,7 @@ img {
     padding: 5%;
 }
 
-.myPicture {
-    /* position: absolute; */
-    /* float: right;
-    width: 15%;
-    height: 15%; */
-}
+
 
 div {
     flex: auto;
@@ -43,10 +37,5 @@ align-items: center;
 
 .aboutMe {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
-}
-
-.contact {
-    /* display: flex; */
 }

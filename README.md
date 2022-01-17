@@ -17,11 +17,11 @@
 
 ## Deployed Link
 
-[Steve Koutsodontis's React Portfolio]()
+[Steve Koutsodontis's React Portfolio](https://steve-koutsodontis-portfolio.herokuapp.com/)
 
 ## Screen Shots
 
-![Screenshot]()
+![Screenshot](./src/components/images/sk-port-screenshot.jpg)
 
 ### License: 
  
