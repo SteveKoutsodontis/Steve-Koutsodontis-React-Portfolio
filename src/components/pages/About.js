@@ -4,6 +4,7 @@ import Email from '../images/gmail_logo.png'
 import LinkedIn from '../images/LinkedIn_logo_.png'
 import GitHub from '../images/github-logo1.jpg'
 import Resume from '../images/resumeimg.PNG'
+import ResumePdf from '../images/SK_Res_1.pdf'
 import ReviewCore from '../images/reviewcore1.jpg'
 import WorkDaySched from '../images/WordDaySched_1.jpg'
 import NoteTaker from '../images/notetaker1.jpg'
@@ -15,11 +16,12 @@ import EmployeeTracker from '../images/EmpTrack1.PNG'
 
 export default function About() {
   return (
-    <><div className='aboutMe'>
-      
+    <>
       <h1>About Me</h1>
+    <div className='aboutMe'>
+      
       <a className='myPicture'><img src={imgSteve} width='100%' height="50%" ></img></a>
-      <p>
+      <p class= 'px-5'>
         Full stack web developer proficient in both frontend and backend languages and frameworks.  I’m committed to providing the highest level of service, advocacy, and representation in the industry.
         I was drawn to a career as a developer because of my interest in computers and gaming. Previously working in the construction industry, I love helping clients by bringing their vision to life.  My goal-oriented approach ensures I leave no stone unturned and pay attention to every detail.
         I currently reside in East Rutherford, New Jersey with my wife. In my spare time, I enjoy cooking, camping trips in Upstate New York, and spending time with my family.
@@ -32,7 +34,7 @@ export default function About() {
 
         <a className='reviewCore'
           href="https://review-core.herokuapp.com/">
-          <img src={ReviewCore} width='40%' height="40%"></img>
+          <img src={ReviewCore} width='40%' height="40%" ></img>
         </a>
 
         <a className='barker'
@@ -63,7 +65,7 @@ export default function About() {
 
       <div class="contact">
         <h1>Contact Info</h1>
-        <p>
+        <p class='px-5'>
           If you have any questions please do not hesistate to contact me at any of the links below. Through these links you will be able to Email, Check my Github, My LinkedIn and also download a copy of my resume. Thank you for checking out my portfolio!
         </p>
         
@@ -81,7 +83,7 @@ export default function About() {
           href="https://github.com/SteveKoutsodontis">
           <img src={GitHub}></img>
         </a>
-        <a className='contactResume' href="./assets/images/SK_Res_1.pdf" download="SK_Res_1.pdf">
+        <a className='contactResume' href={ResumePdf} download>
           <img src={Resume} width="204" height="242"></img>
         </a>
 
