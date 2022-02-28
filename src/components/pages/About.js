@@ -22,9 +22,7 @@ export default function About() {
       
       <a className='myPicture'><img src={imgSteve} width='100%' height="50%" ></img></a>
       <p class= 'px-5'>
-        Full stack web developer proficient in both frontend and backend languages and frameworks.  I’m committed to providing the highest level of service, advocacy, and representation in the industry.
-        I was drawn to a career as a developer because of my interest in computers and gaming. Previously working in the construction industry, I love helping clients by bringing their vision to life.  My goal-oriented approach ensures I leave no stone unturned and pay attention to every detail.
-        I currently reside in East Rutherford, New Jersey with my wife. In my spare time, I enjoy cooking, camping trips in Upstate New York, and spending time with my family.
+      Junior Full Stack Web Developer with an interest in front-end and back-end development. My background in project management and retail has instilled an unparalleled work ethic and a history of providing stellar customer service. I am proficient in the theory and application of web development, and knowledgeable of a variety of computer languages, including HTML, CSS, JavaScript, Node.js, and React. As a recent graduate of the Rutgers University Full Stack Coding Boot Camp, I excel at working with a team and demonstrate strong leadership skills. I am driven to continue learning development languages and reach my long-term goal of becoming a game developer. 
       </p>
     </div>
 
